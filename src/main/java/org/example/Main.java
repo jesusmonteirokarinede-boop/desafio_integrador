@@ -47,7 +47,7 @@ public class Main {
 
         // Exibição do relatório
         System.out.println("\n========================================");
-        System.out.println("   RELATÓRIO DE BENEFÍCIOS  " + nome.toUpperCase());
+        System.out.println("   RELATÓRIO DE BENEFÍCIOS - " + nome.toUpperCase());
         System.out.println("========================================");
         System.out.println("• Vale-Alimentação: " + (valeAlimentacao ? "Elegível" : "Não elegível (Teto salarial atingido)"));
         System.out.println("• Auxílio-Creche: " + (auxilioCreche ? "Elegível" : "Não elegível"));
